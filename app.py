@@ -519,7 +519,7 @@ def render_report(report: ResumeReport, filename: str) -> None:
         file_name="ats_report.md",
         mime="text/markdown",
     )
-       st.caption(
+    st.caption(
         "This is an AI-generated estimate. Real ATS software varies by employer, "
         "so this score is guidance, not a guarantee."
     )
