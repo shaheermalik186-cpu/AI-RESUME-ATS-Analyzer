@@ -1,0 +1,36 @@
+# Secrets - NEVER commit these
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+secrets.toml
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+build/
+dist/
+
+# Tools and caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and local uploads
+*.log
+uploads/
+sample_resumes/
